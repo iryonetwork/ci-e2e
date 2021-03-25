@@ -8,6 +8,6 @@ RUN apt-get update && \
   libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 \
   libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 \
   libxtst6 ca-certificates fonts-liberation libappindicator1 \
-  libnss3 lsb-release xdg-utils wget && \
+  libnss3 lsb-release xdg-utils wget xvfb && \
   apt-get clean && \
   apt-get autoremove -y
